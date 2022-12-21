@@ -4,9 +4,18 @@ We attempt to explore multimodal features of an “ideal speaking style,” whic
 
 Considering Debras’s (2021) suggestions for coarse-grained annotations, this study follows the concise annotation framework adopted by Camiciottoli and Bonsignori (2015). The speech constants will be annotated to examine the Lexical Retrieval Hypothesis evaluated by Trotta and Guarasci (2021), considering their results that gestures tend to co-occur with speech disfluency or hesitations.  Referring to the guidelines in Voghera (2001), four types of speech constants (i.e., pause, repetition, truncation, and semi-lexical) are taken as the annotation targets. It is noted that the “semi-lexical” is renamed  “non-lexical item” in our study. Subsequently, the category for hand functions comprises social, representational, indexical, parsing, performative, and modal, regarding the principles defined by Kendon (2004) and Weinberg, Fukawa-Connelly, and Wiesner (2013).
 
+
 ## Data Collection
 
 Referring to the public information from the Citizen Congress Watch (CCW) on the evaluation of legislators in the 10th session of congress, we extracted and sorted the average scores of the citizen evaluation for 103 legislators. In order to ensure a balanced amount of data, we filtered 23 legislators with at least two videos based on the number of videos of each legislator in the MultiMoco. Finally, considering the evaluation scores, interpellation topics, and political parties, we eventually chose four legislators, two with higher evaluation scores and two with lower scores. A total of 8 interpellation clips were collected as two clips for each legislator were used to balance the data size. Each clip ranged about 8-12 minutes, including topics such as social welfare, education and culture, and finance.
+
+
+## Annotation Overview
+
+
+## Co-occurrence Analysis
+
+
 
 
 ## References
@@ -20,5 +29,6 @@ Trotta, D., & Guarasci, R. (2021). How are gestures used by politicians? A multi
     Italian Journal of Computational Linguistics, 7(7-1, 2), 45-66.
 Weinberg, A., Fukawa-Connelly, T., & Wiesner, E. (2013). Instructor gestures in proof-based mathematics lectures. 
     In Proceedings of the 35th annual meeting of the North American Chapter of the International Group for the Psychology of Mathematics Education (Vol. 1119).
-Miriam V. 2001. “Teorie Linguistiche E Dati Di Parlato.” In Dati Empirici E Teorie Linguistiche, 75–96. Roma: Bulzoni.
+Voghera, M. (2001). Teorie Linguistiche E Dati Di Parlato. In Dati Empirici E Teorie Linguistiche, 75–96. Roma:    
+    Bulzoni.
 
