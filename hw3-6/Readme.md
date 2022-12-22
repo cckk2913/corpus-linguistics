@@ -1,3 +1,14 @@
+---
+
+### IgPost
+
+1. 以模型預測 IgPost 的類別(1: 廣告, 0: 生活貼文)
+2. 將文本前處理並以 ckip-transformers 進行中文斷詞、詞性標註
+3. 使用 Text length, lexical diversity, POS diversity, Hashtag_n 作為 features
+4. 使用 Logistic Regression model 進行 classification task
+
+---
+
 ### Puyuma
 
 且哥半年前修了田野調查課，但她記性不好，已經忘記除了 takesiyan （學校）以外的其他詞彙了。又因為知本卑南語有其特殊的詞根、詞綴，無法透過英文、中文等斷詞系統進行斷詞，能不能請你以且哥依照田調課 transcription 格式的 WORD 檔建立一個小規模的語料庫，並以此語料庫訓練一個 FastText 模型提取 word embedding，並使用 K-means cluster analysis 進行詞彙分類呢？
@@ -18,11 +29,3 @@
 2. 使用 TfidfTransformer >> Naive Bayes 進行推文分類預測
 3. 使用 Word2Vec >> SVM 進行推文分類預測
 
----
-
-### IgPost
-
-1. 以模型預測 IgPost 的類別(1: 廣告, 0: 生活貼文)
-2. 將文本前處理並以 ckip-transformers 進行中文斷詞、詞性標註
-3. 使用 Text length, lexical diversity, POS diversity, Hashtag_n 作為 features
-4. 使用 Logistic Regression model 進行 classification task
