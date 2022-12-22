@@ -1,13 +1,15 @@
+```
 Pin-Er Chen
 Corpus Linguistics
 Prof. Shu-Kai Hsieh
 Dec 23, 2022
+```
 
 ---
 
 ## Analyzing Verbal Disfluency and Hand Functions: A Pilot Study via MultiMOCO
 
-### Introduction
+### Research Aim
 
 We attempt to explore multimodal features of an “ideal speaking style,” which may be reflected on higher citizen evaluation scores. In terms of the features, we take advantage of the MultiMoco as resources to examine the relationship between two types of non-verbal features: speech constant and the functions for hand gestures. With careful annotation of the one verbal and five non-verbal features, we attempt to answer the question: does speaker's speech constants (i.e., non-lexical items, pause, truncation, and repetition) during discourse co-occur with his/her hand gestures? and do these speech constants represent similar functions as the hand gestures?
 
