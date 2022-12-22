@@ -1,4 +1,13 @@
-## Research Proposal
+Pin-Er Chen
+Corpus Linguistics
+Prof. Shu-Kai Hsieh
+Dec 23, 2022
+
+---
+
+# Research Proposal
+
+## Introduction
 
 We attempt to explore multimodal features of an “ideal speaking style,” which may be reflected on higher citizen evaluation scores. In terms of the features, we take advantage of the MultiMoco as resources to examine the relationship between two types of non-verbal features: speech constant and the functions for hand gestures. With careful annotation of the one verbal and five non-verbal features, we attempt to answer the question: does speaker's speech constants (i.e., non-lexical items, pause, truncation, and repetition) during discourse co-occur with his/her hand gestures? and do these speech constants represent similar functions as the hand gestures?
 
@@ -40,10 +49,9 @@ explore the co-occurrence of body postures as well, which may provide more insig
 
 ## References
 
-* Camiciottoli, B.C., & Bonsignori, V. (2015). The Pisa Audiovisual  
-Corpus Project: A Multimodal Approach To Esp Research And Teaching. ESP Today, 3, 139-159.
-Camille Debras. (2021). How to prepare the video component of the Diachronic Corpus of Political Speeches for multimodal analysis. Research in Corpus Linguistics 9/1,132-151. DOI 10.32714/ricl.09.01.08.
-Kendon, A. (2004). Gesture: Visible action as utterance. Cambridge University Press.
-Trotta, D., & Guarasci, R. (2021). How are gestures used by politicians? A multimodal co-gesture analysis. IJCoL. Italian Journal of Computational Linguistics, 7(7-1, 2), 45-66.
-Weinberg, A., Fukawa-Connelly, T., & Wiesner, E. (2013). Instructor gestures in proof-based mathematics lectures. In Proceedings of the 35th annual meeting of the North American Chapter of the International Group for the Psychology of Mathematics Education (Vol. 1119).
-Voghera, M. (2001). Teorie Linguistiche E Dati Di Parlato. In Dati Empirici E Teorie Linguistiche, 75–96. Roma: Bulzoni.
+- Camiciottoli, B.C., & Bonsignori, V. (2015). The Pisa Audiovisual Corpus Project: A Multimodal Approach To Esp Research And Teaching. ESP Today, 3, 139-159.
+- Camille Debras. (2021). How to prepare the video component of the Diachronic Corpus of Political Speeches for multimodal analysis. Research in Corpus Linguistics 9/1,132-151. DOI 10.32714/ricl.09.01.08.
+- Kendon, A. (2004). Gesture: Visible action as utterance. Cambridge University Press.
+- Trotta, D., & Guarasci, R. (2021). How are gestures used by politicians? A multimodal co-gesture analysis. IJCoL. Italian Journal of Computational Linguistics, 7(7-1, 2), 45-66.
+- Weinberg, A., Fukawa-Connelly, T., & Wiesner, E. (2013). Instructor gestures in proof-based mathematics lectures. In Proceedings of the 35th annual meeting of the North American Chapter of the International Group for the Psychology of Mathematics Education (Vol. 1119).
+- Voghera, M. (2001). Teorie Linguistiche E Dati Di Parlato. In Dati Empirici E Teorie Linguistiche, 75–96. Roma: Bulzoni.
