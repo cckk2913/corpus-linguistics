@@ -13,35 +13,34 @@ Referring to the public information from the Citizen Congress Watch (CCW) on the
 Each target in a clip was annotated by a set of two annotators separately. After annotated, the clips along with the annotations were divided into segments of 100ms for time alignment. Eventually, we have all clips annotated with four tiers (2 for speech constants and 2 for hand gestures). The inter-rater reliability was calculated by Cohen’s Kappa, which was 0.49 for speech constants and 0.81 for hand functions. The inter-rater reliability was considered acceptable for the following analysis. The annotation results are shown in the two figures below.
 
 <p float="left">
-  <img src="./Annotations_constant.png" width="300" />
-  <img src="./Annotations_function.png" width="300" /> 
+  <img src="./Annotations_constant.png" width="500" />
+  <img src="./Annotations_function.png" width="500" /> 
 </p>
 
 ## Co-occurrence Analysis
 
 This study aims to discuss whether verbal disfluency co-occurs with more gestures than verbal fluency. Specifically, we attempt to see which hand function tends to appear when there are speech constants, and whether the hand function actually corresponds to the speech constants.
 
-<p align="center">
-  <img src="./Cons_func_heat.png" width="400" />
-</p>
+First, the overall distribution is shown in the heatmap below. It can be observed that <span style="font-family:Courier ">pause</span> occur the most, with a total of 345 segments. First of all, <span style="font-family:Courier ">Social</span> (hand function) and <span style="font-family:Courier ">pause</span> (speech constant) have the highest co-occurrence frequency. Subsequently in the column of <span style="font-family:Courier ">Social</span>, <span style="font-family:Courier ">repetition</span> (speech constant) also co-occurs frequently. This result slightly disagrees with our original assumption that speech constants are mostly used for verbal disfluencies; that is, instead of hesitation pauses in discourse, these pauses and repetitions mostly co-occur at the point when the speaker utilize hand gestures to emphasize an important message.
 
-First, the overall distribution is shown in the heatmap above. It can be observed that <span style="font-family:Courier ">pause</span> occur the most, with a total of 345 segments. First of all, <span style="font-family:Courier ">Social</span> (hand function) and <span style="font-family:Courier ">pause</span> (speech constant) have the highest co-occurrence frequency. Subsequently in the column of <span style="font-family:Courier ">Social</span>, <span style="font-family:Courier ">repetition</span> (speech constant) also co-occurs frequently. This result slightly disagrees with our original assumption that speech constants are mostly used for verbal disfluencies; that is, instead of hesitation pauses in discourse, these pauses and repetitions mostly co-occur at the point when the speaker utilize hand gestures to emphasize an important message.
+<p align="center">
+  <img src="./Cons_func_heat.png" width="500" />
+</p>
 
 In addition, the co-occurrence of <span style="font-family:Courier ">Parsing</span> (hand function) and <span style="font-family:Courier ">pause</span> is the second most frequent in the heatmap. Similarly, <span style="font-family:Courier ">Parsing</span> and <span style="font-family:Courier ">non-lexical item</span> (speech constant) also have some co-occurring segments. Referring to our annotators, <span style="font-family:Courier ">Parsing</span> is annotated when the speakers use certain hand gestures to beat the rhythm, open a new talking turn. In particular, the speakers often repeat the same gesture for a few seconds while speaking (e.g., nodding, waving hands, or finger-pointing), and the actions are usually unrelated to their verbal contents. We then return to the heatmap and find that <span style="font-family:Courier ">pause</span> and <span style="font-family:Courier ">non-lexical item</span> also co-occur with <span style="font-family:Courier ">Parsing</span>, though slightly fewer than their co-occurence with <span style="font-family:Courier ">Social</span>. The latter group is thus in line with our assumption that verbal disfluency will co-occur with hand gestures functioning as <span style="font-family:Courier ">Parsing</span>.
 
 ## Conclusion
 
-the inability to gesture can cause verbal disfluencies (Dobrogaev 1929).
+As prior research have suggested that when speakers are more disfluent in speech, they tend to use more hand gestures (e.g., Trotta and Guarasci, 2021), we attempt to see which hand function tends to appear when there are speech constants, and whether the hand function actually corresponds to verbal disfluency. Our results show that the speech constants (i.e., pause, non-lexical item, repetition) co-occur more frequently with the hand gestures for emphasizing messages (i.e., <span style="font-family:Courier ">Social</span>). Yet, we still find that the speech constants show obvious co-occurence with hand gestures for beating the rhythm or changing talking turns (i.e., <span style="font-family:Courier ">Parsing</span>), which is in line with the theories in previous studies.
 
-Notice that the results are consistent with the Tradeoff Hypothesis (De Ruiter, Bangerter, and Dings 2012). Qualitative analysis shows that when respondents are more disfluent in speech, they gesticulate more.
+As this study are limited to the analysis of the co-occurrence of speech constants and hand gestures, we marked the segments of speech constants and hand gestures manually, which might be imprecise and biased. Also, we did not consider the weights of length and the exact timepoints when the hand gestures happended. Therefore, we may further utilize automatic speech recognition (ASR) and computer vision to capture the exact timepoints of the speech constants and hand gestures. In addition, we may also
+explore the co-occurrence of body postures as well, which may provide more insights into the relationship between speech constants and multimodal expressions.
 
-Results show that hand movements tend to co-occur with full pauses (i.e. repetition) and empty pauses (i.e. pause) and more frequently with interjections (i.e. semi-lexical), suggesting that gesticulating may represent an attempt at lexical retrieval. In future developments we plan to extend the analysis taking into account more recent theories,
-
-Concerning gesture-speech relationship, the results obtained suggest that hand movements are mainly used with an integrative and complementary functions. So, the information provided by such gestures adds precision and emphasis to linguistic information
+---
 
 ## References
 
-Camiciottoli, B.C., & Bonsignori, V. (2015). The Pisa Audiovisual  
+* Camiciottoli, B.C., & Bonsignori, V. (2015). The Pisa Audiovisual  
 Corpus Project: A Multimodal Approach To Esp Research And Teaching. ESP Today, 3, 139-159.
 Camille Debras. (2021). How to prepare the video component of the Diachronic Corpus of Political Speeches for multimodal analysis. Research in Corpus Linguistics 9/1,132-151. DOI 10.32714/ricl.09.01.08.
 Kendon, A. (2004). Gesture: Visible action as utterance. Cambridge University Press.
