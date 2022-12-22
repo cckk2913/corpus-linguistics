@@ -12,8 +12,8 @@ Referring to the public information from the Citizen Congress Watch (CCW) on the
 
 Each target in a clip was annotated by a set of two annotators separately. After annotated, the clips along with the annotations were divided into segments of 100ms for time alignment. Eventually, we have all clips annotated with four tiers (2 for speech constants and 2 for hand gestures). The inter-rater reliability was calculated by Cohen’s Kappa, which was 0.49 for speech constants and 0.81 for hand functions. The inter-rater reliability was considered acceptable for the following analysis. The annotation results are shown in the two figures below.
 
-![Figure 1](./../hw3-6/data/Annotations_constant.png)
-![Figure 1](./../hw3-6/data/Annotations_function.png)
+![Figure 1](./Annotations_constant.png)
+![Figure 1](./Annotations_function.png)
 
 ## Co-occurrence Analysis
 
