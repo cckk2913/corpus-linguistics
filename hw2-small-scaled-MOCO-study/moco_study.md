@@ -27,7 +27,7 @@ This study aims to discuss whether verbal disfluency co-occurs with more gesture
 
 First, the overall distribution is shown in the heatmap above. It can be observed that <span style="font-family:Courier ">pause</span> occur the most, with a total of 345 segments. First of all, <span style="font-family:Courier ">Social</span> (hand function) and <span style="font-family:Courier ">pause</span> (speech constant) have the highest co-occurrence frequency. Subsequently in the column of <span style="font-family:Courier ">Social</span>, <span style="font-family:Courier ">repetition</span> (speech constant) also co-occurs frequently. This result slightly disagrees with our original assumption that speech constants are mostly used for verbal disfluencies; that is, instead of hesitation pauses in discourse, these pauses and repetitions mostly co-occur at the point when the speaker utilize hand gestures to emphasize an important message.
 
-In addition, the co-occurrence of <span style="font-family:Courier ">Parsing</span> (hand function) and <span style="font-family:Courier ">pause</span> is the second most frequent in the heatmap. Similarly, <span style="font-family:Courier ">Parsing</span> and <span style="font-family:Courier ">non-lexical item</span> (speech constant) also have some co-occurring segments. Referring to our annotators, <span style="font-family:Courier ">Parsing</span> is annotated when the speakers use certain hand gestures to beat the rhythm, open a new talking turn, or repeat the same gesture for a few seconds while speaking, keep nodding, shaking hands... etc. Actions that do not correspond to nominal content. The phenomenon that can be observed here is that the <span style="font-family:Courier ">pause</span> and <span style="font-family:Courier ">non-lexical item</span> of the speakers are often combined with <span style="font-family:Courier ">pauses</span> and <span style="font-family:Courier ">non-lexical item</span>when speaking, and at the same time, there will be relatively meaningless rhythmic gestures in the gestures. This type is more in line with our assumption that verbal disfluency will co-occur with gesture, and the frequency of occurrence is also very high.
+In addition, the co-occurrence of <span style="font-family:Courier ">Parsing</span> (hand function) and <span style="font-family:Courier ">pause</span> is the second most frequent in the heatmap. Similarly, <span style="font-family:Courier ">Parsing</span> and <span style="font-family:Courier ">non-lexical item</span> (speech constant) also have some co-occurring segments. Referring to our annotators, <span style="font-family:Courier ">Parsing</span> is annotated when the speakers use certain hand gestures to beat the rhythm, open a new talking turn. In particular, the speakers often repeat the same gesture for a few seconds while speaking (e.g., nodding, waving hands, or finger-pointing), and the actions are usually unrelated to their verbal contents. We then return back to the heatmap and find that <span style="font-family:Courier ">pause</span> and <span style="font-family:Courier ">non-lexical item</span> of the speakers are often combined with relatively meaningless rhythmic gestures which are defined as <span style="font-family:Courier ">Parsing</span>. This type is more in line with our assumption that verbal disfluency will co-occur with hand gestures functioning as <span style="font-family:Courier ">Parsing</span>.
 
 ## Conclusion
 
@@ -41,14 +41,10 @@ Concerning gesture-speech relationship, the results obtained suggest that hand m
 
 ## References
 
-Camiciottoli, B.C., & Bonsignori, V. (2015). The Pisa Audiovisual Corpus Project: A Multimodal Approach To Esp  
- Research And Teaching. ESP Today, 3, 139-159.
-Camille Debras. (2021). How to prepare the video component of the Diachronic Corpus of Political Speeches for
-multimodal analysis. Research in Corpus Linguistics 9/1,132-151. DOI 10.32714/ricl.09.01.08.
+Camiciottoli, B.C., & Bonsignori, V. (2015). The Pisa Audiovisual  
+Corpus Project: A Multimodal Approach To Esp Research And Teaching. ESP Today, 3, 139-159.
+Camille Debras. (2021). How to prepare the video component of the Diachronic Corpus of Political Speeches for multimodal analysis. Research in Corpus Linguistics 9/1,132-151. DOI 10.32714/ricl.09.01.08.
 Kendon, A. (2004). Gesture: Visible action as utterance. Cambridge University Press.
-Trotta, D., & Guarasci, R. (2021). How are gestures used by politicians? A multimodal co-gesture analysis. IJCoL.
-Italian Journal of Computational Linguistics, 7(7-1, 2), 45-66.
-Weinberg, A., Fukawa-Connelly, T., & Wiesner, E. (2013). Instructor gestures in proof-based mathematics lectures.
-In Proceedings of the 35th annual meeting of the North American Chapter of the International Group for the Psychology of Mathematics Education (Vol. 1119).
-Voghera, M. (2001). Teorie Linguistiche E Dati Di Parlato. In Dati Empirici E Teorie Linguistiche, 75–96. Roma:  
- Bulzoni.
+Trotta, D., & Guarasci, R. (2021). How are gestures used by politicians? A multimodal co-gesture analysis. IJCoL. Italian Journal of Computational Linguistics, 7(7-1, 2), 45-66.
+Weinberg, A., Fukawa-Connelly, T., & Wiesner, E. (2013). Instructor gestures in proof-based mathematics lectures. In Proceedings of the 35th annual meeting of the North American Chapter of the International Group for the Psychology of Mathematics Education (Vol. 1119).
+Voghera, M. (2001). Teorie Linguistiche E Dati Di Parlato. In Dati Empirici E Teorie Linguistiche, 75–96. Roma: Bulzoni.
