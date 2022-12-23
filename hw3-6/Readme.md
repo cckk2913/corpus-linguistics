@@ -1,6 +1,6 @@
 ### Dcard
 
-且哥之前在語法學的 term paper 使用 PTT 語料，分析了<strong>「V 看看」</strong>(e.g., 問看看) 和<strong>「VV 看」</strong>（e.g., 試試看）的動詞共現頻率和語境。
+且哥之前在語法學的 term paper 使用 PTT 語料，分析了<strong>「V 看看」</strong> 和<strong>「VV 看」</strong>（e.g., 試看看 和 試試看）的動詞共現頻率和語境。
 他發現
 
 - <strong>「V 看看」</strong>出現的頻率更高、搭配的動詞種類也更多
