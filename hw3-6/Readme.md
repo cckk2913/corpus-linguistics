@@ -9,8 +9,8 @@
 
 不過且哥也想知道在 Dcard 論壇是不是也有相似的狀況，於是他想請你利用賦神爬取的 Dcard 貼文 raw data（197 個 folders，共 20069 個 json），找出
 
-1. 在<strong>「V 看看」</strong>的 V-slot 最常出現的 10 個動詞
-2. 在<strong>「VV 看」</strong>的 V-slot 最常出現的 10 個動詞
+1. 在<strong>「V 看看」</strong>的 V-slot 最常出現的 10 個動詞和詞性（e.g., VC, VE, or VA)
+2. 在<strong>「VV 看」</strong>的 V-slot 最常出現的 10 個動詞和詞性
 3. 在兩個構式的 V-slot 出現次數總和最多的前 10 個動詞
 4. 在兩個構式的 V-slot 出現次數差異最大的前 10 個動詞
 5. 在兩個構式的 V-slot 都有出現的動詞
