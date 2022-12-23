@@ -1,16 +1,16 @@
 ### Dcard
 
-且哥之前在語法學的 term paper 使用 PTT 語料，分析了**「V 看看」**(e.g., 問看看) 和 **「VV 看」**（e.g., 試試看）的動詞共現頻率和語境。
+且哥之前在語法學的 term paper 使用 PTT 語料，分析了<strong>「V 看看」</strong>(e.g., 問看看) 和<strong>「VV 看」</strong>（e.g., 試試看）的動詞共現頻率和語境。
 他發現
 
-- **「V 看看」**出現的頻率更高、搭配的動詞種類也更多
+- <strong>「V 看看」</strong>出現的頻率更高、搭配的動詞種類也更多
 - _試、問_ 等動詞明顯傾向與<strong>「V 看看」</strong>共現（2188 vs 5; 1539 vs 13）
-- _瞧、攻_ 等動詞只有和**「VV 看」**共現的資料
+- _瞧、攻_ 等動詞只有和<strong>「VV 看」</strong>共現的資料
 
 不過且哥也想知道在 Dcard 論壇是不是也有相似的狀況，於是他想請你利用賦神爬取的 Dcard 貼文 raw data（197 個 folders，共 20069 個 json），找出
 
-1. 在**「V 看看」**的 V-slot 最常出現的 10 個動詞
-2. 在**「VV 看」**的 V-slot 最常出現的 10 個動詞
+1. 在<strong>「V 看看」</strong>的 V-slot 最常出現的 10 個動詞
+2. 在<strong>「VV 看」</strong>的 V-slot 最常出現的 10 個動詞
 3. 在兩個構式的 V-slot 出現次數總和最多的前 10 個動詞
 4. 在兩個構式的 V-slot 出現次數差異最大的前 10 個動詞
 5. 在兩個構式的 V-slot 都有出現的動詞
@@ -20,12 +20,11 @@
 ### IgPost
 
 且哥每次瀏覽 Instagram hashtag #芋頭 的帖文，都會看到很多無關芋頭的廣告貼文。他發現這些貼文的內容常常包含高人氣的 hashtag（例如： #台北美食、#超商、#台灣 ），除了貼文長度不一之外，常會出現很多毫不相干的名詞。
-於是且哥想做一個廣告-一般貼文分類器，但他想先知道貼文長度、hashtag 數量、 lexical diversity、POS diversity 這些特徵中，哪些
+於是，且哥準備做一個廣告/一般貼文分類器，不過他需要先知道貼文長度、hashtag 數量、 lexical diversity、POS diversity 之中，哪些特徵對於分類器的準確度影響最大，因此他想請你利用 Derek 神提供的 5000 篇 Instagram 貼文資料集，
 
-1. 以模型預測 IgPost 的類別(1: 廣告, 0: 生活貼文)
-2. 將文本前處理並以 ckip-transformers 進行中文斷詞、詞性標註
-3. 使用 Text length, lexical diversity, POS diversity, Hashtag_n 作為 features
-4. 使用 Logistic Regression model 進行 classification task
+1. 將內文前處理並以 ckip-transformers 進行中文斷詞、詞性標註
+2. 分別提取出每篇文的 4 種 features：文章長度, hashtag 數量, lexical diversity, POS diversity
+3. 再使用 Logistic Regression model 作為 classifier (1: 廣告, 0: 生活貼文)，並依序測試 4 種 features, 4 選 3 種 features 的準確度，看哪一個特徵對於分類器的準確度影響最大
 
 ---
 
